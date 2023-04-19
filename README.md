@@ -9,6 +9,7 @@ Installation:
 1) copy the script to a folder, preferably somewhere safe
 
 2) add the following to your root crontab entry
+
 @reboot /some where safe/disableAvahi.sh
 
 enjoy!
