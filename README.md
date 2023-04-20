@@ -1,8 +1,10 @@
 # AvahiStartupDisabler
 
-The Avahi SMB service is not secured by default. It should only be used in trusted networks and with appropriate security measures, such as requiring authentication and using encryption.
+The Avahi SMB service is not secured by default. It should only be used in trusted networks and with appropriate security measures, such as requiring authentication and using encryption. It's unfortunately enabled by default and can be a pain to remove.
 
-For those of you that would like to quickly harden your ubuntu or linux OS without a fus, you can use this script to disable the service on startup.
+I made this script to just disable Avahi on ubuntu or linux OS without a fus, and still be able to use it should the occasion arise. 
+
+The script just disables the service on startup.
 
 Installation:
 
